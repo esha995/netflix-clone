@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from  "../components/Navbar";
 
 export default function Netflix() {
 
@@ -9,8 +10,6 @@ export default function Netflix() {
   };
   return (
     <div>
-      <h1>hachgjk</h1>
-      <button> gihgytfkuj</button>
       <Navbar isScrolled={isScrolled}/>
     </div>
   )
